@@ -1,0 +1,33 @@
+.brand-logo {
+    display: flex;;
+    align-items: center;
+    font-size: 1.2em;
+    color: inherit;
+    text-decoration: none;
+}
+
+img.logo {
+    width: 80px;
+}
+
+
+.brand-logo-name {
+    margin-left: 1rem;
+    font-weight: 900;
+}
+
+
+.main-header, .main-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-header {
+    height: 10%;
+    width: 90vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    background-color: var(--tertiary-color);
+    color: var(--primary-color);
+}

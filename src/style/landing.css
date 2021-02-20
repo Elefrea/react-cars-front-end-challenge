@@ -1,0 +1,102 @@
+.landing-page{
+    width: 100vw;
+    max-height: 95%;
+    padding: 10vh 0;
+    margin: 0;
+}
+
+.main-content{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    height: 75vh;
+    margin: 0;
+}
+
+.call-to-action{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.title{
+    font-size: 5rem;
+    margin-bottom: 0;
+}
+
+.subtitle{
+    font-size: 3rem;
+    margin-bottom: 10vh;
+}
+
+.btn{
+    display:inline-block;
+    padding:1rem 2rem;
+    border:0.3rem solid #FFFFFF;
+    margin:0 0.3rem 0.3rem 0;
+    border-radius:0.3rem;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-weight:500;
+    font-size: 2rem;
+    text-align:center;
+    transition: all 0.2s;
+}
+
+.main-button{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+.main-button:hover{
+    background-color: var(--primary-color);
+    color: var(--tertiary-font-color);
+}
+
+.select-button{
+    margin-top: 5vh;
+    background-color: var(--primary-color);
+    color: var(--tertiary-font-color);
+}
+
+.select-button:hover{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+#search-car{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.select {
+    min-width: 40%;
+}
+
+select option{
+    color: var(--tertiary-font-color);
+}
+
+select:focus,
+select:hover{
+    border:0.3rem solid var(--tertiary-font-color);
+}
+
+.select-options{
+    width: 30%;
+    text-align: center;
+}
+
+.accent {
+    font-weight: 900;
+    color: var(--tertiary-font-color);
+}

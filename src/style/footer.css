@@ -1,0 +1,10 @@
+.footer{
+    height: 25vh;
+    background-color: var(--tertiary-color);
+    color: var(--primary-color);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
